@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/message/message",
+    "pages/home/home",
+    "pages/search/search",
+    "pages/message-detail/message-detail"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "乐家房产",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#808080",
+    "selectedColor": "#4BC0EB",
+    "backgroundColor": "f5f6f5",
+    "borderStyle": "white",
+    "height": "50px",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/image/tab-bar/index.png",
+        "selectedIconPath": "static/image/tab-bar/index-sel.png"
+      },
+      {
+        "pagePath": "pages/message/message",
+        "text": "消息",
+        "iconPath": "static/image/tab-bar/message.png",
+        "selectedIconPath": "static/image/tab-bar/message-sel.png"
+      },
+      {
+        "pagePath": "pages/home/home",
+        "text": "我的",
+        "iconPath": "static/image/tab-bar/home.png",
+        "selectedIconPath": "static/image/tab-bar/home-sel.png"
+      }
+    ]
+  },
+  "nvueCompiler": "uni-app",
+  "renderer": "auto",
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "DongXiangFangChan",
+  "compilerVersion": "2.4.2",
+  "usingComponents": {}
+}

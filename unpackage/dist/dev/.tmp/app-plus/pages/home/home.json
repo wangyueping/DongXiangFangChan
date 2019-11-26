@@ -1,0 +1,10 @@
+{
+  "disableScroll": true,
+  "scrollIndicator": "none",
+  "bounce": "none",
+  "titleNView": false,
+  "usingComponents": {
+    "hx-navbar": "/components/common/hx-navbar/hx-navbar",
+    "uni-icons": "/components/common/uni-icons/uni-icons"
+  }
+}

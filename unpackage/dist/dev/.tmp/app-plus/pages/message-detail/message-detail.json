@@ -1,0 +1,10 @@
+{
+  "disableScroll": true,
+  "scrollIndicator": "none",
+  "bounce": "none",
+  "softinputMode": "adjustResize",
+  "titleNView": {
+    "titleText": "详情页"
+  },
+  "usingComponents": {}
+}

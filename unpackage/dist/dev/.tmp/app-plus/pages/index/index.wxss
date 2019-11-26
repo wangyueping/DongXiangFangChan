@@ -1,0 +1,151 @@
+
+.content {
+	height: 100%;
+}
+/* 导航栏 */
+.nav-bar-left {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	margin-left: 30rpx;
+	font-size: 28rpx;
+	width: 142rpx;
+}
+.nav-bar-left>text {
+	white-space: nowrap;
+	overflow: hidden;
+	-o-text-overflow: ellipsis;
+	   text-overflow: ellipsis;
+}
+.nav-bar-left>view {
+	color: #FFFFFF;
+	margin-left: 6rpx;
+	font-size: 24rpx;
+}
+.nav-bar-middle {
+	width: 100%;
+	font-size: 28rpx;
+}
+.nav-bar-middle>.search-input {
+	width: %100;
+	height: 60rpx;
+	background-color: #F5F5F5;
+	border-radius: 30rpx;
+	border: 1rpx solid #FFFFFF;
+	text-align: center;
+}
+.nav-bar-middle>.search-input>text {
+	color: #A9A9A9;
+	font-size: 24rpx;
+	line-height: 60rpx;
+}
+/* 轮播图 */
+.banner {
+	height: 300rpx;
+	width: 100%;
+}
+.banner image {
+	width: 100%;
+	height: 100%;
+}
+/* 板块宫格 */
+.grid-plate-8 {
+	padding: 0rpx 30rpx;
+}
+.grid-plate {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-justify-content: space-around;
+	    -ms-flex-pack: distribute;
+	        justify-content: space-around;
+}
+.plate {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.plate>view {
+	font-size: 60rpx;
+}
+/* 滚动消息 */
+.tui-rolling-news {
+	width: 85%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-flex-wrap: nowrap;
+	    -ms-flex-wrap: nowrap;
+	        flex-wrap: nowrap;
+	margin: 30rpx auto;
+	border-radius: 30rpx;
+	background-color: #F5FCFF;
+	padding-left: 15rpx;
+}
+.tui-swiper {
+	font-size: 28rpx;
+	height: 50rpx;
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	    -ms-flex: 1;
+	        flex: 1;
+	padding-left: 8rpx;
+}
+.tui-swiper-item {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center
+}
+.tui-news-item {
+	line-height: 28rpx;
+	white-space: nowrap;
+	overflow: hidden;
+	-o-text-overflow: ellipsis;
+	   text-overflow: ellipsis;
+	color: #A9A9A9;
+}
+.icon-news {
+	font-size: 28rpx;
+	color: #56BDE6;
+}
+

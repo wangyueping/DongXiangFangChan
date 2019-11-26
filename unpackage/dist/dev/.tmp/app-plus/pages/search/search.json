@@ -1,0 +1,10 @@
+{
+  "scrollIndicator": "none",
+  "bounce": "none",
+  "titleNView": {
+    "titleText": "搜索"
+  },
+  "usingComponents": {
+    "zy-search": "/components/common/zy-search/zy-search"
+  }
+}

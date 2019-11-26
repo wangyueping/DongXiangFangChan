@@ -1,0 +1,12 @@
+{
+  "disableScroll": true,
+  "scrollIndicator": "none",
+  "bounce": "none",
+  "titleNView": false,
+  "usingComponents": {
+    "nav-bar": "/components/index/zhouWei-navBar/index",
+    "qu-she-picker": "/components/common/QuShe-picker/QuShe-picker",
+    "house-list": "/components/index/house-list/house-list",
+    "mescroll-uni": "/components/common/mescroll-diy/mescroll-meitun"
+  }
+}

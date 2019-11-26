@@ -1,0 +1,12 @@
+page {
+	font-size: 28upx;
+}
+
+image {
+	will-change: transform
+}
+
+.status_bar {
+	height: var(--status-bar-height);
+	width: 100%;
+}

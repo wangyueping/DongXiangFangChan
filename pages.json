@@ -1,0 +1,96 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"disableScroll": true,
+				"app-plus": {
+					"scrollIndicator": "none", // 禁用滚动条
+					"bounce": "none", // 禁用回弹效果
+					"titleNView": false // 禁用原生导航栏
+				}
+			}
+		},
+		{
+			"path": "pages/message/message",
+			"style": {
+				"app-plus": {
+					"scrollIndicator": "none", // 禁用滚动条
+					"bounce": "none", // 禁用回弹效果
+					"animationType": "fade-in",
+					"titleNView": {
+						"titleText": "消息"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/home/home",
+			"style": {
+				"disableScroll": true,
+				"app-plus": {
+					"scrollIndicator": "none", // 禁用滚动条
+					"bounce": "none",// 禁用回弹效果
+					"titleNView": false // 禁用原生导航栏
+				}
+			}
+		},
+		{
+			"path": "pages/search/search",
+			"style": {
+				"app-plus": {
+					"scrollIndicator": "none", // 禁用滚动条
+					"bounce": "none", // 禁用回弹效果
+					"titleNView": {
+						"titleText": "搜索"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/message-detail/message-detail",
+			"style": {
+				"disableScroll": true,
+				"app-plus": {
+					"scrollIndicator": "none", // 禁用滚动条
+					"bounce": "none", // 禁用回弹效果
+					"softinputMode": "adjustResize",
+					"titleNView": {
+						"titleText": "详情页"
+					}
+				}
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "乐家房产",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#808080",
+		"selectedColor": "#4BC0EB",
+		"backgroundColor": "f5f6f5",
+		"borderStyle": "white",
+		"height":"50px",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "static/image/tab-bar/index.png",
+				"selectedIconPath": "static/image/tab-bar/index-sel.png"
+			},
+			{
+				"pagePath": "pages/message/message",
+				"text": "消息",
+				"iconPath": "static/image/tab-bar/message.png",
+				"selectedIconPath": "static/image/tab-bar/message-sel.png"
+			}, {
+				"pagePath": "pages/home/home",
+				"text": "我的",
+				"iconPath": "static/image/tab-bar/home.png",
+				"selectedIconPath": "static/image/tab-bar/home-sel.png"
+			}
+		]
+	}
+}

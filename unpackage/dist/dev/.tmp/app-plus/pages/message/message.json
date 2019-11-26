@@ -1,0 +1,14 @@
+{
+  "scrollIndicator": "none",
+  "bounce": "none",
+  "animationType": "fade-in",
+  "titleNView": {
+    "titleText": "消息"
+  },
+  "usingComponents": {
+    "tui-icon": "/components/common/icon/icon",
+    "tui-badge": "/components/common/badge/badge",
+    "tui-list-cell": "/components/common/list-cell/list-cell",
+    "tui-swipe-action": "/components/common/swipe-action/swipe-action"
+  }
+}
